@@ -74,9 +74,15 @@ This project investigates the code implementation of binning in image processing
 ## References
 
 **[ASS99]** Til Aach, Ulrich W Schiebel, and Gerhard Spekowius.Digital image acquisition and processing in medical x-ray imaging.Journal of Electronic Imaging, 8(1):7–22, 1999.
+
 **[BCFS06]** M Bigas, Enric Cabruja, Josep Forest, and Joaquim Salvi. Review of cmos image sensors. Microelectronics journal, 37(5):433–451, 2006.
+
 **[JH12]** Xiaodan Jin and Keigo Hirakawa.Analysis and processing of pixel binning for color image sensor.EURASIP Journal on Advances in Signal Processing, 2012:1–15, 2012.
+
 **[Joh06 ]** Don H Johnson. Signal-to-noise ratio.Scholarpedia, 1(12):2088, 2006.
+
 **[MEMA+00]** M Maolinbay, Y El-Mohri, LE Antonuk, K-W Jee, S Nassif, X Rong, and Q Zhao. Additive noise properties of active matrix flat-panel imagers.Medical physics, 27(8):1841–1854, 2000.
+
 **[NKA+10]** Humbat Nasibov, Alisher Kholmatov, Basak Akselli, Adalat Nasibov, and Sakir Baytaroglu. Performance analysis of the ccd pixel binning option in particle-image velocimetry measurements.IEEE/ASME Transactions on Mechatronics, 15(4):527–540, 2010.
+
 **[ZPF97]** Zhimin Zhou, Bedabrata Pain, and Eric R Fossum.Frame-transfer cmos active pixel sensor with pixel binning.IEEE Transactions on electron devices, 44(10):1764–1768, 1997.
