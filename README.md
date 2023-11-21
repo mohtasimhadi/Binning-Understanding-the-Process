@@ -52,31 +52,29 @@ In this section binning will be implemented as per the stated requirements-
 
 ![plot](output.png "SNR vs Binning Factor for Different Noise Levels")
 
-The experiment's outcomes were visualized and analyzed through the creation of Figure \ref{plotted}. In this graph, the blue line corresponds to a noise variance of 5.0, the orange line to a noise variance of 50.0, and the green line to a noise variance of 500.0. From the graph it's observed that-
+The experiment's outcomes were visualized and analyzed through the creation of Figure \ref{plotted}. In this graph, the blue line corresponds to a noise variance of 5.0, the orange line to a noise variance of 50.0, and the green line to a noise variance of 500.0. In summary, the analysis of the SNR values at different noise variance levels reveals the consistent trends:
 
-* Noise Level 5.0:
-  * SNR values generally increase with increasing binning level.
-  * The increase in SNR is more pronounced for higher binning levels.
-  * Overall, higher SNR values are observed.
-* Noise Level 50.0:
-  * Similar trends as noise level 5.0, but SNR values are lower.
-  * The impact of noise is evident in reduced SNR, especially for higher binning levels.
-* Noise Level 500.0:
-  * SNR values are significantly lower across all binning levels.
-  * The impact of high noise level is evident in the reduced ability to discern the signal.
+* There seems to be variability in SNR values across different binning levels for each noise variance. This indicates that the choice of binning level has an impact on the observed signal-to-noise ratio. For each noise variance level (t.0, 50.0, 500.0) the SNR generally tends to increase as the binning level increases.
+* Higher noise variance (e.g., 500.0) generally results in lower SNR across all binning levels compared to lower noise variance (e.g., 5.0). This suggests that higher levels of noise negatively impact the signal-to-noise ratio.
 
 From the observations it can be stated that higher binning levels generally lead to higher SNR, indicating improved signal-to-noise ratio and higher noise levels result in lower SNR, making it more challenging to extract the signal. For a given noise level, increasing the binning level can enhance the ability to extract the signal from the noisy data. The choice of binning level depends on the trade-off between data resolution and the need to reduce noise impact.
 
 ## Conclusion
 
-This project investigates the code implementation of binning in image processing for noise reduction. Through experiments with varying noise levels and binning factors, the study reveals a direct relationship between noise reduction and increasing binning levels. Higher noise levels result in lower Signal-to-Noise Ratios (SNR), emphasizing the trade-off between noise reduction and data resolution. Advantages of binning, including improved SNR and faster image acquisition, are highlighted, but drawbacks such as spatial resolution loss and increased readout noise are acknowledged. The findings provide valuable insights for optimizing binning levels in image processing applications, balancing the need for noise reduction with the preservation of critical data details.
+This project investigates the code implementation of binning in image processing for noise reduction. Through experiments with varying noise levels and binning factors, the study reveals a direct relationship between noise reduction and increasing binning levels. Higher noise levels result in lower Signal-to-Noise Ratios (SNR), emphasizing the trade-off between noise reduction and data resolution. Advantages of binning, including improved SNR and faster image acquisition, are highlighted, but drawbacks such as spatial resolution loss and increased readout noise are acknowledged.
 
 ## References
 
 **[ASS99]** Til Aach, Ulrich W Schiebel, and Gerhard Spekowius.Digital image acquisition and processing in medical x-ray imaging.Journal of Electronic Imaging, 8(1):7–22, 1999.
+
 **[BCFS06]** M Bigas, Enric Cabruja, Josep Forest, and Joaquim Salvi. Review of cmos image sensors. Microelectronics journal, 37(5):433–451, 2006.
+
 **[JH12]** Xiaodan Jin and Keigo Hirakawa.Analysis and processing of pixel binning for color image sensor.EURASIP Journal on Advances in Signal Processing, 2012:1–15, 2012.
+
 **[Joh06 ]** Don H Johnson. Signal-to-noise ratio.Scholarpedia, 1(12):2088, 2006.
+
 **[MEMA+00]** M Maolinbay, Y El-Mohri, LE Antonuk, K-W Jee, S Nassif, X Rong, and Q Zhao. Additive noise properties of active matrix flat-panel imagers.Medical physics, 27(8):1841–1854, 2000.
+
 **[NKA+10]** Humbat Nasibov, Alisher Kholmatov, Basak Akselli, Adalat Nasibov, and Sakir Baytaroglu. Performance analysis of the ccd pixel binning option in particle-image velocimetry measurements.IEEE/ASME Transactions on Mechatronics, 15(4):527–540, 2010.
+
 **[ZPF97]** Zhimin Zhou, Bedabrata Pain, and Eric R Fossum.Frame-transfer cmos active pixel sensor with pixel binning.IEEE Transactions on electron devices, 44(10):1764–1768, 1997.
